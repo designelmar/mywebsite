@@ -305,7 +305,7 @@ let work1;
 
 })
 
-work1.from(".slide-gsap-title", { x: -200, duration: 1.7 });
+work1.from(".slide-gsap-title", { x: -200, duration: 3 });
 
 
 let work2;
@@ -321,7 +321,7 @@ let work2;
 
 })
 
-work2.from(".slide-gsap-text", { x: 200, duration: 1.7 });
+work2.from(".slide-gsap-text", { x: 200, duration: 3 });
 
 
 
@@ -338,7 +338,7 @@ let work3;
 
 })
 
-work3.from(".btn-all", { y: 200, duration: 1.7 });
+work3.from(".btn-all", { y: 200, duration: 3 });
 
 /*****************Section1******************** */
 
@@ -357,7 +357,7 @@ let work4;
 
 })
 
-work4.from(".left-caption", { x: -200, duration: 1.7 });
+work4.from(".left-caption", { x: -200, duration: 3 });
 
 //Right img
 
@@ -374,7 +374,7 @@ let work5;
 
 })
 
-work5.from(".support-location-img", { y: 200, duration: 1.7 });
+work5.from(".support-location-img", { y: 200, duration: 3 });
 
 
 /*****************Section2******************** */
@@ -394,7 +394,7 @@ let work6;
 
 })
 
-work6.from(".gsap-section2", { y: 200, duration: 1.7 });
+work6.from(".gsap-section2", { y: 200, duration: 3 });
 
 
 
@@ -418,7 +418,7 @@ let work7;
 
 })
 
-work7.from(".gsap-content", { x: -200, duration: 1.7 });
+work7.from(".gsap-content", { x: -200, duration: 3 });
 
 
 //right img
@@ -437,7 +437,7 @@ let work8;
 
 })
 
-work8.from(".gsap-post-img", { y: 200, duration: 1.7 });
+work8.from(".gsap-post-img", { y: 200, duration: 3 });
 
 //ACCORDION
 
@@ -454,7 +454,7 @@ let work9;
 
 })
 
-work9.from(".accordion", { x: 200, duration: 1.7 });
+work9.from(".accordion", { x: 200, duration: 3 });
 
 
 
@@ -474,7 +474,7 @@ let work10;
 
 })
 
-work10.from(".gsap-title-section4", { y: 200, duration: 1.7 });
+work10.from(".gsap-title-section4", { y: 200, duration: 3 });
 
 //right img
 
@@ -492,7 +492,7 @@ let work11;
 
 })
 
-work11.from(".icon2", { x: 200, duration: 1.7 });
+work11.from(".icon2", { x: 200, duration: 3 });
 
 
 
@@ -512,7 +512,7 @@ let work12;
 
 })
 
-work12.from(".gsap-section6-title", { x: -200, duration: 1.7 });
+work12.from(".gsap-section6-title", { x: -200, duration: 3 });
 
 
 //portfolia
@@ -530,7 +530,7 @@ let work13;
 
 })
 
-work13.from(".cards-container", { y: 200, duration: 1.7 });
+work13.from(".cards-container", { y: 200, duration: 3 });
 
 
 /*****************Section ORDER******************** */
@@ -550,7 +550,7 @@ let work14;
 
 })
 
-work14.from(".gsap-order-title", {x: -200, duration: 1.7 });
+work14.from(".gsap-order-title", {x: -200, duration: 3 });
 
 
 //MALE toch phone img
@@ -568,7 +568,7 @@ let work15;
 
 })
 
-work15.from(".male-phone", {x: -200, duration: 1.7 });
+work15.from(".male-phone", {x: -200, duration: 3 });
 
 
 //FORM
@@ -587,7 +587,7 @@ let work16;
 
 })
 
-work16.from(".call-form", {y: 200, duration: 1.7 });
+work16.from(".call-form", {y: 200, duration: 3 });
 
 
 

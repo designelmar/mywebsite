@@ -885,7 +885,7 @@
         </div>
     </section>
     <!-------------------------------------------------------SECTION (SİFARİŞ)----------------------------------------------------->
-    <section class="order-section" id="sifariset">
+        <section class="order-section" id="sifariset">
 
 
         <div class="container">
@@ -909,6 +909,7 @@
                     </div>
                 </div>
             </div>
+           
             <!--SIFARIS FORMU-->
 
 
@@ -930,22 +931,22 @@
                             justify-content-center">
                                 <div class="hidebottomcircle2"></div>
                             </div>
-                            <form class="form-horizontal">
+                            <form class="form-horizontal" id="submit">
                                 <div class="form-title">
                                     <h3>MƏNƏ ZƏNG ET</h3>
                                     <p>Adınızı və nömrənizi yazın göndərin Biz Sizə zəng edərik</p>
                                 </div>
                                 <div class="form-group ">
-                                    <label for="exampleInputEmail1">Adınızı qeyd edin</label>
+                                    <label for="usernames">Adınızı qeyd edin</label>
                                     <i class="fas fa-user"></i>
-                                    <input required="" name="login[username]" type="text" class="form-control"
-                                        id="exampleInputEmail1" placeholder="Ad">
+                                    <input required name="ad" type="text" class="form-control"
+                                        id="usernames" placeholder="Ad">
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1">Nömrənizi qeyd edin</label>
+                                    <label for="numbers">Nömrənizi qeyd edin</label>
                                     <i class="fas fa-phone-alt"></i>
-                                    <input required="" name="login[text]" type="text" class="form-control"
-                                        placeholder="Nömrə">
+                                    <input required name="nomre" type="text" class="form-control"
+                                        placeholder="Nömrə" id="numbers">
 
                                 </div>
                                 <button type="submit" class="btn1">Göndər</button>
